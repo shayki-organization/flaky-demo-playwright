@@ -1,0 +1,19 @@
+tests/pricing.spec.ts
+  s_2b4d4531607f43::t_d7a5ef36186ac4 26-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cb3ca1608cd110e4b64a9febf08cd0ba7b65c27b",
+  "prompts": {},
+  "sessions": {
+    "s_2b4d4531607f43": {
+      "agent_id": {
+        "tool": "windsurf",
+        "id": "stealth-giraffe",
+        "model": "unknown"
+      },
+      "human_author": "Shayki Abramczyk <shayki5@gmail.com>"
+    }
+  }
+}

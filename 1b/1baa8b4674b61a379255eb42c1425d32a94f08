@@ -1,0 +1,28 @@
+.github/workflows/tests.yml
+  h_75d26f28339534 1-19
+.gitignore
+  h_75d26f28339534 1-3
+README.md
+  h_75d26f28339534 1-11
+package-lock.json
+  h_75d26f28339534 1-58
+package.json
+  h_75d26f28339534 1-11
+playwright.config.ts
+  h_75d26f28339534 1-9
+tests/pricing.spec.ts
+  h_75d26f28339534 1-32
+tests/pricing.ts
+  h_75d26f28339534 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1b1baa8b4674b61a379255eb42c1425d32a94f08",
+  "prompts": {},
+  "humans": {
+    "h_75d26f28339534": {
+      "author": "Shayki Abramczyk <shayki5@gmail.com>"
+    }
+  }
+}

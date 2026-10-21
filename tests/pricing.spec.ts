@@ -23,6 +23,13 @@ test.describe('pricing flaky', () => {
     expect(price(3, 10)).toBe(30);
   });
 
+  test('flaky: fails on first attempt only', () => {
+    if (process.env.GITHUB_RUN_ATTEMPT === '1') {
+      throw new Error('flaky: simulated first-attempt failure (GITHUB_RUN_ATTEMPT=1)');
+    }
+    expect(price(3, 10)).toBe(30);
+  });
+
   test('flaky: adds tax under contention', () => {
     if (Math.random() < 0.4) {
       throw new Error('flaky: simulated stale tax table');
